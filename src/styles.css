@@ -12,7 +12,12 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  /* add a smooth scroll */
+  scroll-behavior: smooth;
+
 }
+
+
 
 div#main {
   display: flex;
@@ -123,3 +128,27 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add a slide in animation */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*animate the scroll down arrow in your Home component to bounce up and down on your page. */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+

@@ -23,13 +23,43 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
+        "oderwat.indent-rainbow" ,
         "ms-azuretools.vscode-azurestaticwebapps"
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.formatOnSaveTimeout": 750,
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80,
+        "editor.wordWrapMinified": true,
+        "editor.rulers": [
+          80
+        ],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.minimap.enabled": false,
+        "editor.renderWhitespace": "boundary",
+        "editor.renderControlCharacters": true,
+        "editor.cursorBlinking": "smooth",
+        "editor.cursorSmoothCaretAnimation": true,
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 2,
+        "editor.fontFamily": "'Fira Code', 'Operator Mono', 'Inconsolata', 'Droid Sans Mono', 'Monaco', monospace",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 14,
+        "editor.fontWeight": "400",
+        "editor.lineHeight": 24,
+        "editor.letterSpacing": 0.5,
       }
     }
   },
