@@ -5,7 +5,8 @@
  */
 
 import React from "react";
-
+import Education from "./Components/Education";
+<Education />;
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -30,7 +31,7 @@ const siteProps = {
   gitHub: "thestarsahil",
   linkedIn: "thestarsahil",
   twitter: "thestarsahil",
-  youTube: "@thestarsahil",
+  youTube: "thestarsahil",
 };
 
 const primaryColor = "#4E567E";
